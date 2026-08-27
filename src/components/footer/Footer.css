@@ -1,0 +1,39 @@
+.site-footer {
+  border-top:
+    1px solid var(--border);
+
+  padding:
+    38px 0 50px;
+}
+
+.footer-grid {
+  display: grid;
+
+  grid-template-columns:
+    1fr 1fr;
+
+  gap: 40px;
+}
+
+.site-footer small {
+  color: var(--muted);
+
+  font:
+    0.68rem var(--mono);
+}
+
+.site-footer p {
+  color: var(--muted);
+
+  max-width: 48ch;
+
+  font-size: 0.8rem;
+
+  line-height: 1.6;
+}
+
+@media (max-width: 650px) {
+  .footer-grid {
+    grid-template-columns: 1fr;
+  }
+}
