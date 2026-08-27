@@ -1,3 +1,21 @@
+<div align="center">
+    
+# SnapFlow IA
+
+  <img src="https://img.shields.io/badge/Status-Concluído-success" />
+  <img src="https://img.shields.io/badge/HTML-2.2%25-orange" />
+  <img src="https://img.shields.io/badge/CSS-36.1%25-blue" />
+  <img src="https://img.shields.io/badge/JavaScript-61.7%25-yellow" />
+
+
+
+  <b>Solução Web desenvolvida para a Sprint 3</b>
+    
+**[🌐 Acessar Projeto](https://sprint-3-web-development-gxpx8a8oa-eduardoguzelis-projects.vercel.app)**
+</div>
+
+---
+
 # 🚀 Sprint 3 — Web Development
 
 ## 📌 Sobre o Projeto
