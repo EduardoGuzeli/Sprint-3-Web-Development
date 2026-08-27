@@ -49,6 +49,16 @@ A aplicação também possui uma demonstração interativa que simula o funciona
 
 ---
 
+# 🌐 Deploy — Vercel
+
+A aplicação está disponível online por meio da plataforma Vercel.
+
+**Link do Deploy:**
+
+👉 [Acessar o projeto na Vercel](https://sprint-3-web-development-gxpx8a8oa-eduardoguzelis-projects.vercel.app)
+
+---
+
 # 🔄 Migração do Protótipo para React
 
 Nas sprints anteriores, o projeto foi desenvolvido inicialmente utilizando **HTML, CSS e JavaScript**.
@@ -597,16 +607,6 @@ O código-fonte do projeto está disponível no GitHub:
 [Repositório GitHub — Sprint 3 Web Development](https://github.com/EduardoGuzeli/Sprint-3-Web-Development?utm_source=chatgpt.com)
 
 O repositório contém o código-fonte da aplicação, os componentes React, arquivos de configuração e a documentação necessária.
-
----
-
-# 🌐 Deploy — Vercel
-
-A aplicação está disponível online por meio da plataforma Vercel.
-
-**Link do Deploy:**
-
-👉 [Acessar o projeto na Vercel](https://sprint-3-web-development-gxpx8a8oa-eduardoguzelis-projects.vercel.app)
 
 ---
 
