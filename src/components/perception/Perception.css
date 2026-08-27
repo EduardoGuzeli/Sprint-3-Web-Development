@@ -1,0 +1,127 @@
+.perception {
+  background: #0e120f;
+}
+
+.perception-grid {
+  display: grid;
+
+  grid-template-columns:
+    1fr 1fr;
+
+  gap: 60px;
+
+  align-items: center;
+}
+
+.perception h2 {
+  font-size:
+    clamp(
+      2rem,
+      4vw,
+      3.2rem
+    );
+
+  margin:
+    8px 0 12px;
+}
+
+.perception p:not(.eyebrow) {
+  color: var(--muted);
+
+  line-height: 1.65;
+
+  max-width: 560px;
+}
+
+.perception-panel {
+  border:
+    1px solid var(--lime-dim);
+
+  background:
+    var(--surface);
+
+  border-radius:
+    var(--radius);
+
+  padding: 22px;
+}
+
+.perception-panel.off {
+  opacity: 0.55;
+
+  border-color:
+    var(--border);
+}
+
+.perception-status {
+  display: flex;
+
+  align-items: center;
+
+  gap: 8px;
+
+  color: var(--muted);
+
+  font:
+    0.72rem var(--mono);
+
+  margin-bottom: 22px;
+}
+
+.dot {
+  width: 7px;
+  height: 7px;
+
+  border-radius: 50%;
+
+  background:
+    var(--lime);
+
+  display: inline-block;
+}
+
+.metric-grid {
+  display: grid;
+
+  grid-template-columns:
+    1fr 1fr;
+
+  gap: 10px;
+}
+
+.metric {
+  background:
+    var(--surface-2);
+
+  border:
+    1px solid var(--border);
+
+  border-radius:
+    var(--radius-sm);
+
+  padding: 18px;
+}
+
+.metric span {
+  color: var(--muted);
+
+  font:
+    0.65rem var(--mono);
+}
+
+.metric strong {
+  display: block;
+
+  color: var(--lime);
+
+  font:
+    1.7rem var(--mono);
+
+  margin-top: 10px;
+}
+
+@media (max-width: 750px) {
+  .perception-grid {
+    grid-template-columns: 1fr;
+  }
+}
