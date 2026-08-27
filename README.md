@@ -606,7 +606,7 @@ A aplicação está disponível online por meio da plataforma Vercel.
 
 **Link do Deploy:**
 
-👉 **sprint-3-web-development-gxpx8a8oa-eduardoguzelis-projects.vercel.app**
+👉 [Acessar o projeto na Vercel](https://sprint-3-web-development-gxpx8a8oa-eduardoguzelis-projects.vercel.app)
 
 ---
 
