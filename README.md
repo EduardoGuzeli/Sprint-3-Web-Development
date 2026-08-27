@@ -6,7 +6,7 @@ Este projeto foi desenvolvido como parte da **Sprint 3 de Web Development da FIA
 
 Nesta etapa, o protótipo anteriormente desenvolvido em **HTML, CSS e JavaScript** foi migrado para **React**, utilizando componentes funcionais, `import` e `export`, organização hierárquica de componentes e funcionalidades desenvolvidas com JavaScript.
 
-O projeto apresenta o conceito do **SmartCam AI**, uma solução que utiliza Inteligência Artificial para tornar a experiência de fotografia mais intuitiva, auxiliando o usuário na identificação do cenário e na escolha das melhores configurações para capturar uma imagem.
+O projeto apresenta o conceito do **SnapFlow AI**, uma solução que utiliza Inteligência Artificial para tornar a experiência de fotografia mais intuitiva, auxiliando o usuário na identificação do cenário e na escolha das melhores configurações para capturar uma imagem.
 
 A aplicação foi desenvolvida utilizando **React.js e Vite**, mantendo a identidade visual e a proposta definida no protótipo das sprints anteriores.
 
@@ -33,9 +33,9 @@ Durante o desenvolvimento foram aplicados:
 
 ---
 
-# 📱 Sobre o SmartCam AI
+# 📱 Sobre o SnapFlow AI
 
-O **SmartCam AI** é uma proposta de câmera inteligente desenvolvida para tornar a experiência de fotografia mais simples e intuitiva.
+O **SnapFlow AI** é uma proposta de câmera inteligente desenvolvida para tornar a experiência de fotografia mais simples e intuitiva.
 
 A solução busca analisar o contexto da fotografia e apresentar informações ao usuário sobre elementos como:
 
@@ -110,13 +110,13 @@ Ele recebe informações e funções do componente `App`, demonstrando a comunic
 
 ## Hero
 
-O componente **Hero** apresenta a seção inicial da aplicação, introduzindo a proposta do SmartCam AI ao usuário.
+O componente **Hero** apresenta a seção inicial da aplicação, introduzindo a proposta do SnapFlow AI ao usuário.
 
 ---
 
 ## Problem
 
-O componente **Problem** apresenta o problema que o SmartCam AI busca solucionar, contextualizando as dificuldades encontradas pelos usuários durante a utilização de câmeras de smartphones.
+O componente **Problem** apresenta o problema que o SnapFlow AI busca solucionar, contextualizando as dificuldades encontradas pelos usuários durante a utilização de câmeras de smartphones.
 
 ---
 
@@ -130,7 +130,7 @@ O estado `aiEnabled` é recebido do componente pai por meio de `props`.
 
 ## HowItWorks
 
-O componente **HowItWorks** apresenta o funcionamento da solução, explicando de forma visual e organizada como o SmartCam AI pode auxiliar o usuário.
+O componente **HowItWorks** apresenta o funcionamento da solução, explicando de forma visual e organizada como o SnapFlow AI pode auxiliar o usuário.
 
 ---
 
@@ -207,11 +207,11 @@ O projeto utiliza o **`localStorage`** do navegador para armazenar informações
 Foram utilizadas duas principais chaves:
 
 ```text
-smartcam_items
-smartcam_ai
+snapflow_items
+snapflow_ai
 ```
 
-### `smartcam_items`
+### `snapflow_items`
 
 É utilizada para armazenar as capturas realizadas na aplicação.
 
@@ -228,7 +228,7 @@ Quando a aplicação é iniciada, os dados existentes são recuperados utilizand
 
 ---
 
-### `smartcam_ai`
+### `snapflow_ai`
 
 É utilizada para armazenar o estado da Inteligência Artificial.
 
@@ -272,7 +272,7 @@ Além disso, a função é utilizada para selecionar aleatoriamente uma das cena
 * Noite;
 * Ação.
 
-Os valores são atualizados periodicamente enquanto a câmera está ativa e a IA está habilitada, criando uma simulação dinâmica do funcionamento do SmartCam AI.
+Os valores são atualizados periodicamente enquanto a câmera está ativa e a IA está habilitada, criando uma simulação dinâmica do funcionamento do SnapFlow AI.
 
 ---
 
@@ -282,7 +282,7 @@ O componente `Demo` utiliza recursos do navegador para acessar a câmera do disp
 
 A aplicação utiliza referências (`useRef`) para controlar elementos relacionados ao vídeo e ao canvas.
 
-A câmera pode ser ativada durante a demonstração, permitindo que o usuário experimente a funcionalidade proposta pelo SmartCam AI.
+A câmera pode ser ativada durante a demonstração, permitindo que o usuário experimente a funcionalidade proposta pelo SnapFlow AI.
 
 O projeto também realiza o gerenciamento do fluxo da câmera e encerra as faixas do dispositivo quando necessário.
 
@@ -768,4 +768,4 @@ A implementação possibilitou aplicar conceitos de componentes funcionais, comu
 
 Além do desenvolvimento da aplicação, o projeto foi versionado utilizando Git e GitHub e preparado para disponibilização por meio da Vercel.
 
-O projeto representa a evolução das etapas anteriores e estabelece uma base para futuras melhorias e novas funcionalidades do SmartCam AI.
+O projeto representa a evolução das etapas anteriores e estabelece uma base para futuras melhorias e novas funcionalidades do SnapFlow AI.

@@ -38,7 +38,7 @@ export default function Problem() {
           </h2>
 
           <p>
-            O SmartCam transforma
+            O SnapFlow transforma
             sinais técnicos da câmera
             em orientações simples antes
             e depois do clique.

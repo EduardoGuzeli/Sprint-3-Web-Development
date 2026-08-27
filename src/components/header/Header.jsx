@@ -15,7 +15,7 @@ export default function Header({
           <span className="brand-mark" />
 
           <span>
-            SmartCam AI
+            SnapFlow AI
 
             <small>
               on-device · sprint 3

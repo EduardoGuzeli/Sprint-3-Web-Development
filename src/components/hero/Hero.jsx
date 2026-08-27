@@ -40,7 +40,7 @@ export default function Hero() {
 
         <div className="hero-card">
           <span>
-            SMARTCAM / LIVE
+            SnapFlow / LIVE
           </span>
 
           <strong>

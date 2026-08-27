@@ -8,7 +8,7 @@ export default function Footer() {
         <div>
 
           <small>
-            SmartCam AI · FIAP JOVI Challenge 2026
+            SnapFlow AI · FIAP JOVI Challenge 2026
           </small>
 
           <p>

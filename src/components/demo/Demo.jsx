@@ -246,7 +246,7 @@ export default function Demo({
           </p>
 
           <h2>
-            Teste a câmera SmartCam.
+            Teste a câmera SnapFlow.
           </h2>
 
           <p>
