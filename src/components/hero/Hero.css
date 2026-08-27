@@ -1,0 +1,107 @@
+.hero {
+  padding: 90px 0 70px;
+
+  border-bottom:
+    1px solid var(--border);
+}
+
+.hero-inner {
+  display: grid;
+
+  grid-template-columns:
+    1.5fr 0.7fr;
+
+  gap: 70px;
+
+  align-items: center;
+}
+
+.hero h1 {
+  max-width: 850px;
+
+  font-size:
+    clamp(
+      2.5rem,
+      6vw,
+      5.4rem
+    );
+
+  line-height: 0.98;
+
+  letter-spacing:
+    -0.055em;
+
+  margin:
+    12px 0 24px;
+}
+
+.hero-text {
+  max-width: 680px;
+
+  color: var(--muted);
+
+  line-height: 1.7;
+
+  font-size: 1rem;
+}
+
+.hero-button {
+  display: inline-block;
+
+  margin-top: 14px;
+}
+
+.hero-card {
+  min-height: 260px;
+
+  border:
+    1px solid var(--border);
+
+  border-radius:
+    var(--radius);
+
+  background:
+    linear-gradient(
+      135deg,
+      rgba(200, 255, 77, 0.08),
+      transparent 50%
+    ),
+    var(--surface);
+
+  display: flex;
+
+  flex-direction: column;
+
+  justify-content: flex-end;
+
+  padding: 22px;
+}
+
+.hero-card span,
+.hero-card small {
+  font:
+    0.7rem var(--mono);
+
+  color: var(--muted);
+}
+
+.hero-card strong {
+  font:
+    3.5rem var(--display);
+
+  color: var(--lime);
+
+  margin: 8px 0;
+}
+
+@media (max-width: 800px) {
+  .hero-inner {
+    grid-template-columns: 1fr;
+
+    gap: 35px;
+  }
+
+  .hero-card {
+    min-height: 180px;
+  }
+}
