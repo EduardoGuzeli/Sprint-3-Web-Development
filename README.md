@@ -611,10 +611,8 @@ A aplicação está disponível online por meio da plataforma Vercel.
 Exemplo:
 
 ```text
-https://nome-do-projeto.vercel.app
+sprint-3-web-development-gxpx8a8oa-eduardoguzelis-projects.vercel.app
 ```
-
-> **Importante:** substitua o endereço acima pelo link real gerado pela Vercel antes da entrega.
 
 ---
 
