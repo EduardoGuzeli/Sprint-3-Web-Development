@@ -9,7 +9,7 @@ import Demo from "./components/demo/Demo";
 import MVP from "./components/MVP/MVP";
 import Footer from "./components/footer/Footer";
 
-const STORAGE_KEY = "smartcam_items";
+const STORAGE_KEY = "snapflow_items";
 
 function readItems() {
   try {
@@ -24,7 +24,7 @@ function readItems() {
 export default function App() {
   const [aiEnabled, setAiEnabled] = useState(
     () =>
-      localStorage.getItem("smartcam_ai") !== "false"
+      localStorage.getItem("snapflow_ai") !== "false"
   );
 
   const [items, setItems] = useState(readItems);
@@ -38,7 +38,7 @@ export default function App() {
 
   useEffect(() => {
     localStorage.setItem(
-      "smartcam_ai",
+      "snapflow_ai",
       String(aiEnabled)
     );
   }, [aiEnabled]);
